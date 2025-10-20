@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
+// Importar todos los componentes
+import Header from './components/header';
+import HomeHero from './components/home-hero';
+import HomeCards from './components/home-cards';
+import HomeBanner from './components/home-banner';
+import HomeSteps from './components/home-steps';
+import HomeReels from './components/home-reels';
+import HomeDescription from './components/home-description';
+import HomeForm from './components/home-form';
+import Footer from './components/footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <HomeHero />
+      <HomeCards />
+      <HomeBanner />
+      <HomeSteps />
+      <HomeReels />
+      <HomeDescription />
+      <HomeForm />
+      <Footer />
     </div>
   );
 }
