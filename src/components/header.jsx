@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
-// Header Component
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -19,9 +18,9 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center space-x-5">
-            <div className="flex items-center space-x-2">
-              <img src="/images/bcp.png" alt="Logo BCP" className="w-10 h-10 object-contain" />
-              <img src="/images/ctrll.png" alt="Logo Ctrl+Alt+Perú" className="w-28 h-10 object-contain" />
+            <div className="flex items-center space-x-3">
+              <img src="/images/bcp.png" alt="Logo BCP" className="w-16 h-16 object-contain" />
+              <img src="/images/ctrl.png" alt="Logo Ctrl+Alt+Perú" className="w-36 h-18 object-contain" />
             </div>
           </div>
           

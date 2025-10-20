@@ -1,19 +1,33 @@
 import React from 'react';
 import { Phone, Mail, Facebook, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react';
 
-// Footer Component
 const Footer = () => {
   return (
     <footer className="bg-[#02288d] pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>
-            <div className="flex items-center space-x-5 mb-4">
-              <div className="bg-[#ff6201] p-2 rounded-lg">
-                <img src="/images/ctrl.png" alt="Ctrl+Alt+Perú" className="w-6 h-6 object-contain" />
-              </div>
-              <span className="text-white font-bold text-xl">Ctrl+Alt+Perú</span>
-            </div>
+<div className="flex items-center justify-center mb-4">
+  {/* Logo BCP */}
+  <div className="p-2">
+    <img
+      src="/images/bcp-blanco.png"
+      alt="Logo BCP"
+      className="w-[200px] md:w-[260px] lg:w-[300px] h-auto object-contain rounded-xl"
+    />
+  </div>
+
+  {/* Logo Ctrl+Alt+Perú */}
+  <div className="p-2 -ml-[8px]">
+    <img
+      src="/images/alt.png"
+      alt="Ctrl+Alt+Perú"
+      className="w-[340px] md:w-[450px] lg:w-[540px] h-auto object-contain rounded-xl"
+    />
+  </div>
+</div>
+
+
             <p className="text-white/80 text-sm">
               Reiniciando el Perú con empatía, responsabilidad y acción social.
             </p>
