@@ -17,7 +17,7 @@ const HomeBanner = () => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
     }, 4000);
     return () => clearInterval(interval);
-  }, []);
+  }, [slides.length]); // <-- agregado slides.length
 
   return (
     <>

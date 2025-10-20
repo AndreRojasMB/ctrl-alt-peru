@@ -1,8 +1,5 @@
 import React from 'react';
-import { 
-  Zap, Phone, Mail, 
-  Facebook, Instagram, Twitter, Linkedin, Youtube 
-} from 'lucide-react';
+import { Phone, Mail, Facebook, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react';
 
 // Footer Component
 const Footer = () => {
@@ -12,13 +9,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center space-x-5 mb-4">
-            <div className>
-            <img
-                src="/images/bcp.png"        // 🔹 Mismo logo o puedes usar otro (por ejemplo /logo-blanco.png)
-                alt="Logo Ctrl+Alt+Perú"
-                className="w-13 h-13 object-contain"
-            />
-            </div>
+              <div className="bg-[#ff6201] p-2 rounded-lg">
+                <img src="/images/ctrl.png" alt="Ctrl+Alt+Perú" className="w-6 h-6 object-contain" />
+              </div>
               <span className="text-white font-bold text-xl">Ctrl+Alt+Perú</span>
             </div>
             <p className="text-white/80 text-sm">
@@ -29,20 +22,52 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">Programa</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">Integracion Social</a></li>
-              <li><a href="#" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">Destinos</a></li>
-              <li><a href="#" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">Calendario</a></li>
-              <li><a href="#" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">Testimonios</a></li>
+              <li>
+                <a href="/#integracion" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">
+                  Integración Social
+                </a>
+              </li>
+              <li>
+                <a href="/#destinos" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">
+                  Destinos
+                </a>
+              </li>
+              <li>
+                <a href="/#calendario" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">
+                  Calendario
+                </a>
+              </li>
+              <li>
+                <a href="/#testimonios" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">
+                  Testimonios
+                </a>
+              </li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-white font-semibold mb-4">Empresas</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">RSE Corporativo</a></li>
-              <li><a href="#" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">Alianzas</a></li>
-              <li><a href="#" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">Beneficios</a></li>
-              <li><a href="#" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">Casos de éxito</a></li>
+              <li>
+                <a href="/#rse" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">
+                  RSE Corporativo
+                </a>
+              </li>
+              <li>
+                <a href="/#alianzas" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">
+                  Alianzas
+                </a>
+              </li>
+              <li>
+                <a href="/#beneficios" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">
+                  Beneficios
+                </a>
+              </li>
+              <li>
+                <a href="/#casos" className="text-white/80 hover:text-[#ff6201] text-sm transition-colors">
+                  Casos de éxito
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -60,19 +85,19 @@ const Footer = () => {
             </ul>
             
             <div className="flex space-x-3 mt-6">
-              <a href="#" className="bg-white/10 p-2 rounded-lg hover:bg-[#ff6201] transition-colors">
+              <a href="https://facebook.com/ctrlaltperu" target="_blank" rel="noreferrer" className="bg-white/10 p-2 rounded-lg hover:bg-[#ff6201] transition-colors">
                 <Facebook className="w-5 h-5 text-white" />
               </a>
-              <a href="#" className="bg-white/10 p-2 rounded-lg hover:bg-[#ff6201] transition-colors">
+              <a href="https://instagram.com/ctrlaltperu" target="_blank" rel="noreferrer" className="bg-white/10 p-2 rounded-lg hover:bg-[#ff6201] transition-colors">
                 <Instagram className="w-5 h-5 text-white" />
               </a>
-              <a href="#" className="bg-white/10 p-2 rounded-lg hover:bg-[#ff6201] transition-colors">
+              <a href="https://twitter.com/ctrlaltperu" target="_blank" rel="noreferrer" className="bg-white/10 p-2 rounded-lg hover:bg-[#ff6201] transition-colors">
                 <Twitter className="w-5 h-5 text-white" />
               </a>
-              <a href="#" className="bg-white/10 p-2 rounded-lg hover:bg-[#ff6201] transition-colors">
+              <a href="https://linkedin.com/company/ctrlaltperu" target="_blank" rel="noreferrer" className="bg-white/10 p-2 rounded-lg hover:bg-[#ff6201] transition-colors">
                 <Linkedin className="w-5 h-5 text-white" />
               </a>
-              <a href="#" className="bg-white/10 p-2 rounded-lg hover:bg-[#ff6201] transition-colors">
+              <a href="https://youtube.com/ctrlaltperu" target="_blank" rel="noreferrer" className="bg-white/10 p-2 rounded-lg hover:bg-[#ff6201] transition-colors">
                 <Youtube className="w-5 h-5 text-white" />
               </a>
             </div>
@@ -85,13 +110,13 @@ const Footer = () => {
               © 2024 Ctrl + Alt + Perú. Todos los derechos reservados.
             </p>
             <div className="flex space-x-6">
-              <a href="#" className="text-white/60 hover:text-[#ff6201] text-sm transition-colors">
+              <a href="/terminos" className="text-white/60 hover:text-[#ff6201] text-sm transition-colors">
                 Términos y condiciones
               </a>
-              <a href="#" className="text-white/60 hover:text-[#ff6201] text-sm transition-colors">
+              <a href="/privacidad" className="text-white/60 hover:text-[#ff6201] text-sm transition-colors">
                 Política de privacidad
               </a>
-              <a href="#" className="text-white/60 hover:text-[#ff6201] text-sm transition-colors">
+              <a href="/cookies" className="text-white/60 hover:text-[#ff6201] text-sm transition-colors">
                 Cookies
               </a>
             </div>
