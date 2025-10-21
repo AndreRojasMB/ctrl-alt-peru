@@ -11,6 +11,7 @@ import HomeReels from './components/home-reels';
 import HomeDescription from './components/home-description';
 import HomeForm from './components/home-form';
 import Footer from './components/footer';
+import BcpPromotions from './components/bcpPromotions';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <HomeHero />
       <HomeCards />
+      <BcpPromotions />
       <HomeBanner />
       <HomeSteps />
       <HomeReels />
