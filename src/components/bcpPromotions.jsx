@@ -61,7 +61,7 @@ const BcpPromotions = () => {
     {
       title: "Podcast “Modo Reinicio”",
       subtitle: "",
-      bgImage: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+      bgImage: "images/spoty.png",
       bgColor: "#fce7f3"
     }
   ];
