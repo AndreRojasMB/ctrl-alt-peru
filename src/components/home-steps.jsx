@@ -20,7 +20,7 @@ const HomeSteps = () => {
     {
       icon: <Lightbulb className="w-8 h-8" />,
       title: "Capacítate",
-      description: "Talleres prácticos y mentoría con ONGs",
+      description: "Talleres prácticos y mentorías previas al viaje",
       button: "Prepárate",
       color: "bg-gradient-to-br from-[#ff6201] to-[#ff8534]"
     },
@@ -40,31 +40,41 @@ const HomeSteps = () => {
           Pasos para ser parte de esta integración social
         </h2>
 
-        <div className="grid md:grid-cols-4 gap-8">
-          {steps.map((step, index) => (
-            <div key={index} className="relative">
-              {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-12 left-full w-full h-0.5 bg-gradient-to-r from-[#ff6201] to-[#02288d] z-0" />
-              )}
-              
-              <div className="relative z-10 text-center">
-                <div className={`${step.color} w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-4 shadow-xl transform hover:scale-110 transition-transform`}>
-                  <div className="text-white">{step.icon}</div>
-                </div>
-                
-                <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
-                  <h3 className="text-xl font-bold text-[#02288d] mb-2">
-                    Paso {index + 1} — {step.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm mb-4">{step.description}</p>
-                  <button className="bg-[#ff6201] text-white px-4 py-2 rounded-full text-sm hover:bg-[#e55500] transition-colors">
-                    {step.button}
-                  </button>
-                </div>
-              </div>
-            </div>
-          ))}
+<div className="grid md:grid-cols-4 gap-8 relative">
+  {steps.map((step, index) => (
+    <div key={index} className="relative">
+      {/* 🔹 Línea anterior solo para el primer paso */}
+      {index === 0 && (
+        <div className="hidden md:block absolute top-12 left-0 right-full w-60 h-0.5 bg-gradient-to-r from-[#ff6201] to-[#02288d] z-0 translate-x-1" />
+      )}
+
+
+      {/* 🔹 Líneas hacia los siguientes pasos (excepto el último) */}
+      {index < steps.length - 1 && (
+        <div className="hidden md:block absolute top-12 left-full w-full h-0.5 bg-gradient-to-r from-[#ff6201] to-[#02288d] z-0" />
+      )}
+
+      <div className="relative z-10 text-center">
+        <div
+          className={`${step.color} w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-4 shadow-xl transform hover:scale-110 transition-transform`}
+        >
+          <div className="text-white">{step.icon}</div>
         </div>
+
+        <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
+          <h3 className="text-xl font-bold text-[#02288d] mb-2">
+            Paso {index + 1} — {step.title}
+          </h3>
+          <p className="text-gray-600 text-sm mb-4">{step.description}</p>
+          <button className="bg-[#ff6201] text-white px-4 py-2 rounded-full text-sm hover:bg-[#e55500] transition-colors">
+            {step.button}
+          </button>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
       </div>
     </section>
   );

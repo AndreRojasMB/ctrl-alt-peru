@@ -74,49 +74,50 @@ const BcpPromotions = () => {
           Explora las mejores<br />promociones con BCP
         </h1>
 
-        {/* Grid de Promociones */}
+        {/* Grid de Promociones - 2x2 */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Card 1 - Grande izquierda */}
+          
+          {/* Card 1 - Primera fila izquierda (mascota BCP) */}
           <div className="animate-[slideUp_0.6s_ease-out]">
             <PromoCard
               title={promotions[0].title}
               subtitle={promotions[0].subtitle}
               bgImage={promotions[0].bgImage}
               bgColor={promotions[0].bgColor}
-              className="md:row-span-2 h-96 md:h-auto"
+              className="h-80 md:h-[220px]"
             />
           </div>
 
-          {/* Card 2 - Pequeño derecha arriba */}
-          <div className="animate-[slideUp_0.6s_ease-out_0.1s] opacity-0 [animation-fill-mode:forwards]">
+          {/* Card 2 - Primera fila derecha (Wardaditos) */}
+          <div className="animate-[slideUp_0.6s_ease-out_0.1s] opacity-0 [animation-fill-mode:forwards] h-80 md:h-[460px]">
             <PromoCard
               title={promotions[1].title}
               subtitle={promotions[1].subtitle}
               bgImage={promotions[1].bgImage}
               bgColor={promotions[1].bgColor}
-              className="h-72"
+              className="h-72 md:h-[460px]"
             />
           </div>
 
-          {/* Card 3 - Grande izquierda abajo */}
+          {/* Card 3 - Segunda fila izquierda (Préstamo - más alto) */}
           <div className="animate-[slideUp_0.6s_ease-out_0.2s] opacity-0 [animation-fill-mode:forwards]">
             <PromoCard
               title={promotions[2].title}
               subtitle={promotions[2].subtitle}
               bgImage={promotions[2].bgImage}
               bgColor={promotions[2].bgColor}
-              className="h-80"
+              className="h-96 md:h-[500px] top-[-240px]"
             />
           </div>
 
-          {/* Card 4 - Pequeño derecha abajo */}
-          <div className="animate-[slideUp_0.6s_ease-out_0.3s] opacity-0 [animation-fill-mode:forwards]">
+          {/* Card 4 - Segunda fila derecha (Tarjeta de Crédito) */}
+          <div className="animate-[slideUp_0.6s_ease-out_0.3s] opacity-0 [animation-fill-mode:forwards] h-80 md:h-[260px]">
             <PromoCard
               title={promotions[3].title}
               subtitle={promotions[3].subtitle}
               bgImage={promotions[3].bgImage}
               bgColor={promotions[3].bgColor}
-              className="h-80"
+              className="h-80 md:h-[260px]"
             />
           </div>
         </div>
