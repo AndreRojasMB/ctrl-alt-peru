@@ -6,14 +6,14 @@ const HomeSteps = () => {
     {
       icon: <FileText className="w-8 h-8" />,
       title: "Postula",
-      description: "Completa el formulario + carta de motivación",
+      description: "Completa el formulario",
       button: "Postula",
       color: "bg-gradient-to-br from-[#ff6201] to-[#ff8534]"
     },
     {
       icon: <ClipboardList className="w-8 h-8" />,
-      title: "Selección",
-      description: "Prueba breve de hábitos y entrevista",
+      title: "Reto TickTock",
+      description: "Video de 1 minuto explicando por qué quieres ser parte",
       button: "Siguiente",
       color: "bg-gradient-to-br from-[#02288d] to-[#0344c2]"
     },

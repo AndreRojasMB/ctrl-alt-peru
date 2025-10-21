@@ -41,25 +41,25 @@ const PromoCard = ({ title, subtitle, bgImage, bgColor, className = "" }) => {
 const BcpPromotions = () => {
   const promotions = [
     {
-      title: "¿Primera vez pidiendo tarjeta?",
-      subtitle: "Con AND0, es posible",
-      bgImage: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
+      title: "Paraderos Interactivos BCP",
+      subtitle: "¿Que te hace sentir orgulloso de ser peruano?",
+      bgImage: "images/Paradero.png",
       bgColor: "#93c5fd"
     },
     {
-      title: "¡Ahorra con Wardaditos, la alcancía virtual!",
+      title: "¡Exposicion artisitica!",
       subtitle: "",
-      bgImage: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+      bgImage: "images/Exposicionartistica.png",
       bgColor: "#bfdbfe"
     },
     {
-      title: "Pide un Préstamo online y obtén tu dinero al instante",
+      title: "Escuela tecnológica por Gen Z",
       subtitle: "",
-      bgImage: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&q=80",
+      bgImage: "images/CarpaBCP.png",
       bgColor: "#1e3a8a"
     },
     {
-      title: "¡Tu Tarjeta de Crédito en segundos!",
+      title: "Podcast “Modo Reinicio”",
       subtitle: "",
       bgImage: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
       bgColor: "#fce7f3"
