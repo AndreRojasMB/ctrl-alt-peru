@@ -47,9 +47,9 @@ const BcpPromotions = () => {
       bgColor: "#93c5fd"
     },
     {
-      title: "¡Exposicion artisitica!",
+      title: "¡Exposición artística!",
       subtitle: "",
-      bgImage: "images/Exposicionartistica.png",
+      bgImage: "images/Exposionartistica.png",
       bgColor: "#bfdbfe"
     },
     {
@@ -71,7 +71,7 @@ const BcpPromotions = () => {
       <div className="max-w-7xl mx-auto">
         {/* Título Principal con animación */}
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-900 mb-12 animate-[fadeIn_0.8s_ease-out]">
-          Explora las mejores<br />promociones con BCP
+          "Experiencias Ctrl+Alt+Perú"
         </h1>
 
         {/* Grid de Promociones - 2x2 */}
