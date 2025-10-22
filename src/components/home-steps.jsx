@@ -12,7 +12,7 @@ const HomeSteps = () => {
     },
     {
       icon: <ClipboardList className="w-8 h-8" />,
-      title: "Reto TickTock",
+      title: "Reto TikTok",
       description: "Video de 1 minuto explicando por qué quieres ser parte",
       button: "Siguiente",
       color: "bg-gradient-to-br from-[#02288d] to-[#0344c2]"
