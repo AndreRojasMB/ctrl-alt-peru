@@ -136,7 +136,7 @@ const HomeReels = () => {
               <svg className="w-5 h-5 animate-pulse" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 2L15 8H9L12 2Z" fill="#FFB37A"/>
               </svg>
-              <span className="text-sm font-semibold">Ver +72 programas</span>
+              <span className="text-sm font-semibold">Ver +24 programas</span>
               <svg className="w-5 h-5 animate-bounce" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 12h14M12 5l7 7-7 7" stroke="#ff6201" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
@@ -282,11 +282,11 @@ const HomeReels = () => {
               </div>
               <div className="mt-6 grid md:grid-cols-3 gap-4">
                 <div className="bg-gradient-to-br from-[#02288d]/10 to-[#0a3eb8]/10 p-4 rounded-xl border border-[#02288d]/20">
-                  <p className="text-2xl font-bold text-[#02288d]">72+</p>
+                  <p className="text-2xl font-bold text-[#02288d]">24+</p>
                   <p className="text-sm text-gray-600">Programas disponibles</p>
                 </div>
                 <div className="bg-gradient-to-br from-[#ff6201]/10 to-[#ff8534]/10 p-4 rounded-xl border border-[#ff6201]/20">
-                  <p className="text-2xl font-bold text-[#ff6201]">15K+</p>
+                  <p className="text-2xl font-bold text-[#ff6201]">90+</p>
                   <p className="text-sm text-gray-600">Participantes</p>
                 </div>
                 <div className="bg-gradient-to-br from-green-500/10 to-emerald-500/10 p-4 rounded-xl border border-green-500/20">
