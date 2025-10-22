@@ -280,7 +280,7 @@ const HomeReels = () => {
                   </button>
                 </div>
               </div>
-              <div className="mt-6 grid md:grid-cols-3 gap-4">
+              <div className="mt-6 grid md:grid-cols-2 gap-4">
                 <div className="bg-gradient-to-br from-[#02288d]/10 to-[#0a3eb8]/10 p-4 rounded-xl border border-[#02288d]/20">
                   <p className="text-2xl font-bold text-[#02288d]">24+</p>
                   <p className="text-sm text-gray-600">Programas disponibles</p>
