@@ -286,12 +286,8 @@ const HomeReels = () => {
                   <p className="text-sm text-gray-600">Programas disponibles</p>
                 </div>
                 <div className="bg-gradient-to-br from-[#ff6201]/10 to-[#ff8534]/10 p-4 rounded-xl border border-[#ff6201]/20">
-                  <p className="text-2xl font-bold text-[#ff6201]">90+</p>
+                  <p className="text-2xl font-bold text-[#ff6201]">90</p>
                   <p className="text-sm text-gray-600">Participantes</p>
-                </div>
-                <div className="bg-gradient-to-br from-green-500/10 to-emerald-500/10 p-4 rounded-xl border border-green-500/20">
-                  <p className="text-2xl font-bold text-green-600">4.8★</p>
-                  <p className="text-sm text-gray-600">Calificación promedio</p>
                 </div>
               </div>
             </div>
